@@ -52,7 +52,7 @@ header {
 .banner-parent {
   width: 100%;
   height: 625px;
-  background-image: url("/assets/Hero-bg.png");
+  background-image: url("../assets/Hero-bg.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
