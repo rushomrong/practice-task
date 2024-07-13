@@ -509,12 +509,13 @@ header {
 .next-target {
   width: 1140px;
   height: 871px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
   /* border: 1px solid red; */
-  margin: 0 auto;
+  margin-bottom: 81px;
 }
 
 .next-target .target-content {
@@ -699,4 +700,27 @@ header {
   opacity: 0.7;
   margin-top: 8px;
   margin-bottom: 24px;
+}
+
+/* support section style */
+.support {
+  width: 1140px;
+  height: 314px;
+  border: 1px solid red;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 64px 48px 64px 48px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2)
+    ),
+    url("../assets/handshake.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
