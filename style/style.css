@@ -324,6 +324,7 @@ header {
   justify-content: flex-start;
   align-items: center;
   margin-top: 149px;
+  margin-bottom: 174px; /*space provided to next target skills*/
 }
 
 .current-target .current-content {
@@ -502,4 +503,27 @@ header {
 
 .content .js-content-desc {
   margin-bottom: 24px;
+}
+
+/* next target skill style */
+.next-target {
+  width: 1140px;
+  height: 871px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.next-target .target-content {
+  width: 946px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 48px 0px;
+  border: 1px solid red;
 }
