@@ -724,3 +724,65 @@ header {
   background-repeat: no-repeat;
   background-position: center;
 }
+
+.support .support-content {
+  width: 1044px;
+  height: 186px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.support-content .s-content {
+  width: 730px;
+  height: 104px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+}
+
+.s-content .s-title {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.s-content .s-desc {
+  font-family: "Montserrat Alternates", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffff;
+  opacity: 0.7;
+  margin-top: 16px;
+}
+
+.subscribe {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.subscribe input[type="email"] {
+  width: 548px;
+  height: 57px;
+  padding: 19px 20px 19px 20px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  margin-right: 16px;
+  border: none;
+}
+
+.subscribe input[type="button"] {
+  width: 120px;
+  height: 58px;
+  padding: 17px 20px 17px 20px;
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  border: none;
+}
