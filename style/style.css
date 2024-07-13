@@ -360,8 +360,44 @@ header {
   height: 300px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   border: 1px solid red;
   margin-top: 48px;
+}
+
+.three-skills .html {
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  background: rgba(255, 76, 30, 0.05);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  border: 1px solid red;
+}
+
+.three-skills .css {
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  border: 1px solid red;
+}
+
+.three-skills .js {
+  width: 364px;
+  height: 300px;
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 40px;
+  border: 1px solid red;
 }
